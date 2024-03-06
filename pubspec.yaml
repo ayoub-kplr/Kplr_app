@@ -1,20 +1,48 @@
 name: kplr_app
-description: A new Flutter project.
 publish_to: 'none'
+description: A new Flutter project.
+
+
 version: 0.1.0
 
 environment:
-  sdk: '>=3.1.5 <4.0.0'
+  sdk: ">=3.1.5 <4.0.0"
 
 dependencies:
+  file_picker: ^6.2.0
   flutter:
     sdk: flutter
   http: ^1.1.0
+  image: ^4.1.7
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+  permission_handler: ^11.0.1
+  simple_animations: ^5.0.2
+  webview_flutter: ^4.5.0
+   
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
 
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
 flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
   uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/images/
+  
+
