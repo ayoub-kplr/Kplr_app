@@ -10,28 +10,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final List<Map<String, dynamic>> _listItem = [
-    {
-      "image": 'assets/images/1.png',
-      "title": "Movie Recommendation",
-      "api": "https://ai.kplr.fr:444"
-    },
-    {
-      "image": 'assets/images/2.png',
-      "title": "Cars Detection",
-      "api": "https://ai.kplr.fr:445"
-    },
-    {
-      "image": 'assets/images/3.png',
-      "title": "Behavior detector",
-      "api": "https://ai.kplr.fr:446"
-    },
-    {
-      "image": 'assets/images/4.png',
-      "title": "ChatGPT",
-      "api": "https://ai.kplr.fr:447"
-    },
-  ];
+  final List<Map<String, dynamic>> _listItem = [];
 
   @override
   Widget build(BuildContext context) {
